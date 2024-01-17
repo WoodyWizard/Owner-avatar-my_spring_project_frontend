@@ -1,0 +1,22 @@
+.profile-page {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 1000px;
+    padding: 2%;
+}
+
+.cart-items {
+    width: 100%;
+    border-radius: 10px;
+
+
+    
+}

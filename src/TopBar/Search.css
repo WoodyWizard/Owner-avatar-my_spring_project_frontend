@@ -1,0 +1,22 @@
+.search {
+    background-color: #FFB200;
+    border-radius: 50px;
+    border: white 10px solid;
+    margin-top: 22px;
+
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    background-image: url(../assets/glass.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    cursor: pointer;
+}

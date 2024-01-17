@@ -1,0 +1,54 @@
+.header-logo {
+    background-color: #FFB200;
+
+    border-radius: 100px;
+    border: white 12px solid;
+
+    width: 23vw;
+    height: 100px;
+    min-width: 250px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    container-type: inline-size;
+}
+
+.header-logo h1 {
+    color: white;
+    font-family: 'LogoFont', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    user-select: none;
+}
+
+@keyframes change_size {
+    from {
+        font-size: 575%;
+    }
+    to {
+        font-size: 375%;
+    }
+}
+
+@keyframes change_size_back {
+    from {
+        font-size: 375%;
+    }
+    to {
+        font-size: 575%;
+    }
+}
+
+@container (max-width: 375px) {
+    .header-logo h1 {
+        animation:forwards change_size 0.5s;
+    }
+}
+
+@container (min-width: 375px) {
+    .header-logo h1 {
+        animation: forwards change_size_back 0.5s;
+    }
+}

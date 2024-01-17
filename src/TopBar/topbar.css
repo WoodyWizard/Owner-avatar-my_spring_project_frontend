@@ -1,0 +1,18 @@
+.top-bar, .top-bar-left, .top-bar-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar{
+    margin-top: 10px;
+}
+
+.top-bar-left::after, 
+.top-bar-right::before {
+    content:'';
+    display: inline-block;
+}
+.top-bar-left, .top-bar-right {
+    flex: 2;
+}
+

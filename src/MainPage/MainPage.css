@@ -1,0 +1,17 @@
+.main-page {
+    width: 96%;
+    height: 5000px;
+    background-color: white;
+
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 50px;
+
+}
+
+.main-page-content {
+    margin: 25px;
+    padding-top: 25px;
+}

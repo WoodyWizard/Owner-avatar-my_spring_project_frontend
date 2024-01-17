@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 465px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+:root {
+  background-color: #E9E9E9;
+  color: rgba(0,0,0, 1);
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+body{
+  place-items: stretch;
+  display: block;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("/src/assets/fonts/overmuch/overmch-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Moderna";
+  src: url("/src/assets/fonts/nova-classic/nova-classic-personal-use-only-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LogoFont";
+  src: url("/src/assets/fonts/logo/bell_ring-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "UsernameFont";
+  src: url("/src/assets/fonts/username/bold_living-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BalanceFont";
+  src: url("/src/assets/fonts/Balance/ilumination-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MinecraftFont";
+  src: url("/src/assets/fonts/minecraftFonts/minecraft-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

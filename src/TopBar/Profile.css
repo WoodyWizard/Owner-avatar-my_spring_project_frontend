@@ -1,0 +1,94 @@
+.profile {
+    margin-top: 14px;
+    background-color: #FFB200;
+
+    border-radius: 100px;
+    border: white 10px solid;
+
+    width: 35%;
+    height: 75px;
+    min-width: 74px;
+
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+    font-size: 0.6vw;
+    color: white;
+    font-family: 'UsernameFont', Arial, sans-serif;
+    user-select: none;
+
+    padding-left: 1%;
+    padding-right: 1%;
+
+    cursor: pointer;
+    position: relative;
+}
+
+.balance {
+    position: absolute;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+
+    bottom: -46px;
+    
+    background-color: white;
+    color: #FFB200;
+    border-radius: 100px;
+
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'MinecraftFont', Arial, sans-serif;
+}
+
+.profile-img-div {
+    /*background-image: url(../assets/profile.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: white;
+    flex-shrink: 0;
+}
+
+.profile-img-div img {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes profile_size {
+    from {
+        width: 35%;
+    }
+    to {
+        width: 74px;
+    }
+}
+
+@keyframes profile_size_back {
+    from {
+        width: 74px;
+    }
+    to {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .profile {
+        animation : forwards profile_size 0.5s;
+    }
+}
+
+@media (min-width: 1300px) {
+    .profile {
+        animation : forwards profile_size_back 0.5s;
+    }
+}
